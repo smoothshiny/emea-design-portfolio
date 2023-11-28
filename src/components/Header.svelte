@@ -33,16 +33,24 @@
     class="md:bg-cyan-50 md:flex md:items-center z-[-1] md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px]"
   >
     <li class="mx-4 my-6 md:my-0">
-      <a href="#about" class="duration-200 hover:text-emerald-800">About me</a>
-    </li>
-    <li class="mx-4 my-6 md:my-0">
-      <a href="#portfolio" class="duration-200 hover:text-emerald-800"
-        >Portfolio</a
+      <a
+        href="#about"
+        class="duration-200 hover:text-emerald-800"
+        on:click={clickBurger}>About me</a
       >
     </li>
     <li class="mx-4 my-6 md:my-0">
-      <a href="#contact" class="duration-200 hover:text-emerald-800"
-        >Contact me</a
+      <a
+        href="#portfolio"
+        class="duration-200 hover:text-emerald-800"
+        on:click={clickBurger}>Portfolio</a
+      >
+    </li>
+    <li class="mx-4 my-6 md:my-0">
+      <a
+        href="#contact"
+        class="duration-200 hover:text-emerald-800"
+        on:click={clickBurger}>Contact me</a
       >
     </li>
   </ul>
