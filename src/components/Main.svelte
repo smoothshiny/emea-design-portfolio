@@ -29,7 +29,7 @@
       </h2>
 
       <button
-        class="blueShadow place-items-center lg:mr-auto lg:text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-emerald-800 text-cyan-50"
+        class="blueShadow place-items-center lg:text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-emerald-800 text-cyan-50"
         ><h4 class="relative z-9">Contact me &rarr;</h4>
       </button>
     </div>
