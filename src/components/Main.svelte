@@ -54,7 +54,7 @@
             class="poppins text-4xl sm:text-5xl md:text-6xl text-cyan-50 font-semibold"
           />
           <div class="flex flex-col gap-6 sm:gap-8">
-            <h3 class="text-2xl sm:text-3xl md:text-5xl">
+            <h3 class="text-center text-2xl sm:text-3xl md:text-5xl">
               {benefit.name}
             </h3>
             <p>{benefit.description}</p>
@@ -83,7 +83,7 @@
                 : 'text-orange-600 bg-white'}"
               on:click={() => toggleTabs(1)}
             >
-              Project 1
+              OU Printing Services
             </a>
           </li>
           <li class="-mb-px mr-2 last:mr-0 flex-auto text-center">
@@ -94,7 +94,7 @@
                 : 'text-orange-600 bg-white'}"
               on:click={() => toggleTabs(2)}
             >
-              Project 2
+              Class Projects
             </a>
           </li>
           <li class="-mb-px mr-2 last:mr-0 flex-auto text-center">
@@ -105,7 +105,7 @@
                 : 'text-orange-600 bg-white'}"
               on:click={() => toggleTabs(3)}
             >
-              Project 3
+              Commissions
             </a>
           </li>
         </ul>
