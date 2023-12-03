@@ -1,5 +1,6 @@
 <script>
   import Step from "./Step.svelte";
+  import Slider from "./Slider.svelte";
 
   let steps = [{ name: "Ohio University", icon: "fa-solid fa-school" }];
 
@@ -115,50 +116,43 @@
           <div class="px-4 py-5 flex-auto">
             <div class="tab-content tab-space">
               <div class={openTab === 1 ? "block" : "hidden"}>
-                <p>
-                  In hac habitasse platea dictumst. Pellentesque habitant morbi
-                  tristique senectus et netus et malesuada fames ac turpis
-                  egestas. Suspendisse potenti. Suspendisse id bibendum turpis,
-                  sit amet vehicula mi. Quisque fringilla hendrerit scelerisque.
-                  <br />
-                  <br />
-                  Proin efficitur dui in pulvinar semper. Vestibulum suscipit at
-                  leo in venenatis. Ut sollicitudin turpis a lectus sagittis vestibulum.
-                  Suspendisse vehicula porta ligula in ornare. Curabitur dictum elit
-                  a sapien placerat, non aliquam mi interdum. Suspendisse varius
-                  massa quis lacus vehicula faucibus.
-                </p>
+                <Slider
+                  duration={20000}
+                  slides={[
+                    "/images/ouprint/BobcatDepotClassCards1.jpg",
+                    "/images/ouprint/GlobalArtsPoster.jpg",
+                  ]}
+                />
               </div>
               <div class={openTab === 2 ? "block" : "hidden"}>
-                <p>
-                  Morbi consectetur mauris non nunc dapibus, in cursus tortor
-                  ornare. Sed vel porttitor felis, at cursus nulla. Integer
-                  facilisis sed massa at porta. Nulla consectetur ligula
-                  interdum, semper dolor nec, maximus tortor. Nam nec libero
-                  gravida enim tincidunt ultricies. Vestibulum nec mi dapibus,
-                  lacinia sapien sed, fermentum magna.
-                  <br />
-                  <br />
-                  Ut dictum diam dui, eu fermentum quam ullamcorper imperdiet. Aliquam
-                  commodo nulla sed lorem blandit, non vestibulum mauris faucibus.
-                  Ut tincidunt enim velit, sagittis condimentum dui vestibulum vitae.
-                </p>
+                <Slider
+                  duration={20000}
+                  slides={[
+                    "/images/classproj/BeerCanLabels1.jpg",
+                    "/images/classproj/BeerCanLabels2.jpg",
+                    "/images/classproj/BeerCanLabels3.jpg",
+                    "/images/classproj/BeerCanLabels4.jpg",
+                    "/images/classproj/BeerCanLabels5.jpg",
+                    "/images/classproj/BeerCanLabels6.jpg",
+                    "/images/classproj/BeerCanLabels1.jpg",
+                    "/images/classproj/BeerCanLabels2.jpg",
+                  ]}
+                />
               </div>
               <div class={openTab === 3 ? "block" : "hidden"}>
-                <p>
-                  Pellentesque congue iaculis nunc, vitae ultrices arcu placerat
-                  eu. Fusce quis ipsum non felis facilisis porttitor. Sed
-                  volutpat dignissim magna, ornare lobortis ex laoreet ac.
-                  Nullam blandit dolor nec ullamcorper tristique. Nulla pretium
-                  arcu ac nibh finibus consectetur. Fusce vitae ultricies sem.
-                  Maecenas sit amet facilisis risus. Nulla varius lectus in
-                  lorem placerat viverra.
-                  <br />
-                  <br />
-                  Nullam leo nibh, vulputate sodales euismod a, egestas quis dolor.
-                  Duis porttitor nec neque vel ornare. Nunc id ornare nulla. Nam
-                  sit amet nulla nibh.
-                </p>
+                <Slider
+                  duration={20000}
+                  slides={[
+                    "/images/commissions/alchemy/alchemy1.jpg",
+                    "/images/commissions/alchemy/alchemy2.jpg",
+                    "/images/commissions/alchemy/alchemy3.jpg",
+                    "/images/commissions/brickcity/BrickCity1.jpg",
+                    "/images/commissions/brickcity/BrickCity2.jpg",
+                    "/images/commissions/brickcity/BrickCity3.jpg",
+                    "/images/commissions/stockman/BusinessCardolive-Stockman1.jpg",
+                    "/images/commissions/stockman/BusinessCardolive-Stockman2.jpg",
+                  ]}
+                />
               </div>
             </div>
           </div>
